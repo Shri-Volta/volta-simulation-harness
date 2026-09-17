@@ -1,5 +1,8 @@
 # Volta Simulation Harness
 
+**New here? Start with [how this works](docs/how-this-works.md)** — who the harness is for, what a
+session looks like, and the problem it solves. The rest of this README assumes you already know.
+
 New cases default to small businesses unless the user explicitly requests another setting. Characters and student guidance use conversational, plain English. Buyer-role and JTBD labels belong in teaching notes with simple explanations, rather than in the characters' speech.
 
 Case generation follows the [persona, JTBD and buyer requirements](packages/authoring/PERSONA-GENERATION.md). The authoring importer rejects missing character profiles, incomplete buyer coverage and broken discovery references. Full profiles stay private; students discover roles and motivations through evidence.
